@@ -1,5 +1,5 @@
 
-* git clone git@github.com:demon1996/larabbs.git
+* git clone git@github.com:demon1996/blog.git
 * cp .env.example .env
 * 修改.env配置
 * composer install
