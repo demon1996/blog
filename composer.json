@@ -25,10 +25,7 @@
         "overtrue/pinyin": "~3.0",
         "predis/predis": "~1.0",
         "socialiteproviders/weixin": "^4.0",
-        "spatie/laravel-permission": "~2.7",
-        "summerblue/administrator": "~1.1",
-        "tymon/jwt-auth": "1.0.0-rc.2",
-        "viacreative/sudo-su": "~1.1"
+        "tymon/jwt-auth": "1.0.0-rc.2"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "~3.1",
@@ -76,11 +73,5 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
-    },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
-        }
     }
 }

@@ -8,9 +8,9 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'LaraBBS') - LaraBBS 爱好者社区</title>
-    <meta name="description" content="@yield('description', setting('seo_description', 'LaraBBS 爱好者社区。'))" />
-    <meta name="keyword" content="@yield('keyword', setting('seo_keyword', 'LaraBBS,社区,论坛,开发者论坛'))" />
+    <title>@yield('title', 'Demon') - Demon's Blog</title>
+    <meta name="description" content="@yield('description', 'Demon\'s Blog')" />
+    <meta name="keyword" content="@yield('keyword', 'Demon\'s Blog,Demon')" />
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -31,10 +31,6 @@
 
     @include('layouts._footer')
 </div>
-
-@if (app()->isLocal())
-    @include('sudosu::user-selector')
-@endif
 
 
 <!-- Scripts -->

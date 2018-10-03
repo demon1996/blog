@@ -15,6 +15,8 @@ Route::get('/', 'TopicsController@index')->name('root');
 
 Auth::routes();
 
+Route::redirect('register', '/', 301);
+
 Route::resource('users', 'UsersController', ['only' => ['show', 'update', 'edit']]);
 Route::resource('topics', 'TopicsController', ['only' => ['index', 'create', 'store', 'update', 'edit', 'destroy']]);
 Route::get('topics/{topic}/{slug?}', 'TopicsController@show')->name('topics.show');
